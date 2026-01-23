@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <>
-      <h1 className="text-red-50">hye</h1>
-    </>
+    <main className="font-lato text-gray-800 leading-normal">
+      <Navbar />
+    </main>
   );
 }
 
